@@ -2,4 +2,6 @@
 SHRMACEResult : dict = {'WindowsUUID' : None ,
                         'WindowsProductId' : None ,
                         'CPUINFO' : None ,
-                        'CPUID' : None}
+                        'CPUID' : None ,
+                        'CPUVendor' : None ,
+                        'MotherBoardINFO' : None ,}
