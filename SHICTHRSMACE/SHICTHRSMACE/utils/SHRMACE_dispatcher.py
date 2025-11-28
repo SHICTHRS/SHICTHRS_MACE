@@ -2,6 +2,7 @@
 import threading
 from ..SHRMACE_ErrorBase import SHRMACEException
 from ..SHRMACE_Data import SHRMACEData
+from ..api.SHRMACE_get_system_info import get_system_info
 from ..api.SHRMACE_get_uuid import get_uuid
 from ..api.SHRMACE_get_pdc_id import get_pdc_id
 from ..api.SHRMACE_get_cpu_info import get_cpu_info
@@ -15,7 +16,7 @@ from ..api.SHRMACE_get_disk_info import get_disk_info
 from ..api.SHRMACE_get_mem_info import get_mem_info
 from ..api.SHRMACE_get_mac_info import get_mac_info
 
-MACE_PROCESS_LIST : list = [get_uuid , get_pdc_id , get_cpu_info ,
+MACE_PROCESS_LIST : list = [get_system_info , get_uuid , get_pdc_id , get_cpu_info ,
                             get_cpu_id , get_cpu_vendor , get_mb_info ,
                             get_mb_id , get_gpu_info , get_gpu_id ,
                             get_disk_info , get_mem_info , get_mac_info]

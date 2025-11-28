@@ -28,5 +28,5 @@ def SHRMACE_get_mace_info() -> tuple:
 
         return (result , errro_list)
 
-    except Exception as e:
+    except SHRMACEException as e:
         raise SHRMACEException(f'SHRMACE [ERROR.2014] error occurred while getting mace info. | {e}')

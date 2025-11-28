@@ -1,7 +1,8 @@
 
 class SHRMACEData():
     def __init__(self):
-        self.SHRMACEResult : dict = {'WindowsUUID' : None ,
+        self.SHRMACEResult : dict = {'WindowsSystemInfo' : None ,
+                                    'WindowsUUID' : None ,
                                     'WindowsProductId' : None ,
                                     'CPUINFO' : None ,
                                     'CPUID' : None ,
