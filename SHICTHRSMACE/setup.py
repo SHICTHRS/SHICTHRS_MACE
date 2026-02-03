@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
 setup(name='SHICTHRSMACE',
-      version='1.7.0',
+      version='1.8.0',
       description='SHICTHRS MACE machine identity system',
-      url='https://github.com/JNTMTMTM/SHICTHRS_MACE',
+      url='https://github.com/SHICTHRS/SHICTHRS_MACE',
       author='SHICTHRS',
       author_email='contact@shicthrs.com',
       license='GPL-3.0',
